@@ -1,0 +1,21 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    margin: 5px 10px 5px 10px;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.font-size-small {
+    font-size: 0.875rem;
+}
