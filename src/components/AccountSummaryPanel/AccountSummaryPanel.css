@@ -5,7 +5,8 @@
 
 .flex-row {
     display: flex;
-    margin: 5px 10px 5px 10px;
+    margin: 0 10px 5px 10px;
+    gap: 50px;
 }
 
 .width-50 {
@@ -18,4 +19,8 @@
 
 .font-size-small {
     font-size: 0.875rem;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
 }
