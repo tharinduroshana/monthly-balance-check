@@ -10,7 +10,7 @@ import RemoveCircleRoundedIcon from "@mui/icons-material/RemoveCircleRounded";
 
 const StatementTable = ({ transactions }) => {
   return (
-    <TableContainer component={Paper}>
+    <TableContainer data-testid="statement-table" component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="customized table">
         <TableHead>
           <TableRow>

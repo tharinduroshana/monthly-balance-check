@@ -2,7 +2,7 @@ import "./AccountSummaryPanel.css";
 
 const AccountSummaryPanel = ({ monthlyBalance }) => {
   return (
-    <div className="flex-column font-size-small">
+    <div data-testid="account-summary-panel" className="flex-column font-size-small">
       <div className="flex-row">
         <div className="flex-row width-50 space-between">
           <div className="flex-1 font-weight-bolder">Account Number:</div>
@@ -10,7 +10,7 @@ const AccountSummaryPanel = ({ monthlyBalance }) => {
         </div>
         <div className="flex-row width-50 space-between">
           <div className="flex-1 font-weight-bolder">Monthly Balance (€):</div>
-          <div className="flex-1">{monthlyBalance.toFixed(2)}</div>
+          <div className="flex-1">{monthlyBalance && monthlyBalance.toFixed(2)}</div>
         </div>
       </div>
       <div className="flex-row">

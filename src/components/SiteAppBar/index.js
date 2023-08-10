@@ -6,7 +6,7 @@ import Container from "@mui/material/Container";
 const SiteAppBar = () => {
   return (
     <>
-      <AppBar position="sticky">
+      <AppBar data-testid="app-bar" position="sticky">
         <Container maxWidth={false}>
           <Toolbar disableGutters>
             <Typography
